@@ -44,7 +44,7 @@ h4 {
 }
 
 .about img {
-  border: 2px solid #D3DEDC;
+  border: 2px solid #d3dedc;
   border-radius: 50%;
   border-width: 5px;
 }
@@ -80,15 +80,15 @@ li {
   margin: 4% 0% 0% 0%;
 }
 
-.card{
+.card {
   border-radius: 30px;
 }
 
-.application a{
+.application a {
   text-decoration: none;
 }
 
-.application a:hover{
+.application a:hover {
   text-decoration: underline;
 }
 
@@ -96,11 +96,46 @@ li {
   text-align: center;
 }
 
-.skills{
+.skills {
   padding: 4% 0% 0% 0%;
 }
 
-.skills h2{
+.skills h2 {
   text-align: center;
   font-size: 45px;
+}
+
+.skills-list {
+  padding-top: 4%;
+}
+
+footer {
+  margin: 4% 0% 0% 0%;
+  background-color: black;
+  color: white;
+  padding: 2% 0% 2% 0%;
+}
+
+h6 {
+  text-align: center;
+}
+
+.contact {
+  padding: 4% 0% 0% 0%;
+}
+
+.contact-form {
+  padding-top: 4%;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.button-send {
+  text-align: center;
+}
+.btn {
+  margin-top: 2%;
 }
