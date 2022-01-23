@@ -44,9 +44,9 @@ h4 {
 }
 
 .about img {
-  border: 2px solid #fef9ef;
+  border: 2px solid #D3DEDC;
   border-radius: 50%;
-  border-width: 2px;
+  border-width: 5px;
 }
 
 .about img:hover {
@@ -55,15 +55,16 @@ h4 {
   transition-duration: 1s;
   transition-delay: 0.7s;
   transition-timing-function: ease-in-out;
+  opacity: 1;
 }
 
 li {
   padding: 2% 0% 0% 0%;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .work {
-  padding: 4% 0% 4% 0%;
+  padding: 4% 0% 0% 0%;
 }
 
 .work h2 {
@@ -71,6 +72,35 @@ li {
   font-size: 45px;
 }
 
-.work h4 {
+.work h5 {
   color: black;
+}
+
+.application {
+  margin: 4% 0% 0% 0%;
+}
+
+.card{
+  border-radius: 30px;
+}
+
+.application a{
+  text-decoration: none;
+}
+
+.application a:hover{
+  text-decoration: underline;
+}
+
+.application h5 {
+  text-align: center;
+}
+
+.skills{
+  padding: 4% 0% 0% 0%;
+}
+
+.skills h2{
+  text-align: center;
+  font-size: 45px;
 }
