@@ -277,11 +277,11 @@ h6 {
   text-align: center;
 }
 
-.contact{
+.contact {
   margin-top: 10%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
-.contact-form{
+.contact-form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -291,4 +291,8 @@ h6 {
   text-align: center;
   font-size: 45px;
   margin-bottom: 6%;
+}
+
+input{
+  border-radius: 50px;
 }
