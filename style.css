@@ -5,6 +5,8 @@
   background-size: cover;
   padding-top: 250px;
   padding-bottom: 250px;
+  width: 100%;
+  background-clip: border-box;
 }
 
 h1 {
@@ -39,7 +41,7 @@ h4 {
 
 /*about*/
 .about {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 .about h2 {
   text-align: center;
@@ -82,7 +84,7 @@ li {
 }
 
 .work {
-  margin-top: 10%;
+  margin-top: 6%;
   background-color: #1a374d;
   padding-bottom: 4%;
   padding-top: 2%;
@@ -102,6 +104,12 @@ li {
   border-radius: 30px;
   padding-bottom: 2%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 1%;
+}
+
+.card:hover {
+  transition: all 800ms;
+  transform: scaleY(1.2);
 }
 
 .card-img-top {
@@ -111,12 +119,24 @@ li {
 }
 
 .card-img-top:hover {
-  filter: grayscale(100%);
+  filter: saturate(5);
 }
 
 .card a {
   text-decoration: none;
   border-radius: 50px;
+  background-color: #632626;
+  color: #fff;
+  transition: all 800ms;
+}
+
+.card a:hover {
+  background-color: #570530;
+  color: #fff;
+}
+
+.card .btn {
+  margin-top: 3%;
 }
 
 .skills-bar {
@@ -254,7 +274,7 @@ li {
 }
 
 .skills {
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
 .skills h2 {
@@ -278,7 +298,7 @@ h6 {
 }
 
 .contact {
-  margin-top: 10%;
+  margin-top: 6%;
   margin-bottom: 5%;
 }
 .contact-form {
@@ -293,6 +313,22 @@ h6 {
   margin-bottom: 6%;
 }
 
-input{
-  border-radius: 50px;
+.form-control {
+  border-width: 2px;
+}
+
+.form-control:focus {
+  background-color: #f2ffe9;
+  color: #000000;
+}
+
+.send {
+  background-color: #064663;
+  color: #fff;
+  transition: all 800ms;
+}
+
+.send:hover {
+  background-color: #22577e;
+  color: #fff;
 }
